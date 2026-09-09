@@ -31,3 +31,5 @@ Node.js 22+，无 npm 依赖。运行 `npm run build`、`npm test`，再运行 `
 - [ShipLens](https://github.com/yyyz1011/shiplens)
 
 没有库存或交付评分等线上统计。页面中的表格数据、网页轮廓和问题提示均为标明用途的演示。
+
+当前 SheetDelta 子域名的 HTTPS 证书仍在签发，首版产品入口暂时指向其公开 GitHub 文档。证书正常后，在 src/content.mjs 中将 url/zhUrl 恢复为 https://sheetdelta.nimokit.com/docs/ 和 /docs/zh/。
