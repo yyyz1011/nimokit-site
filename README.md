@@ -14,7 +14,7 @@ Node.js 22+，无 npm 依赖。运行 `npm run build`、`npm test`，再运行 `
 
 ## 发布
 
-推送 `main` 后 GitHub Actions 构建、测试并发布到 Pages。Pages 来源选择 GitHub Actions，自定义域名为 `nimokit.com`。DNS 在腾讯云 DNSPod 管理：根域名四条 A 记录指向 GitHub Pages 官方地址；待证书签发后开启 HTTPS 强制跳转。
+推送 `main` 后 GitHub Actions 构建、测试并发布到 Pages。Pages 来源选择 GitHub Actions，自定义域名为 `nimokit.com`。DNS 在腾讯云 DNSPod 管理：根域名两条 A 记录指向 GitHub Pages 官方地址 185.199.108.153 和 185.199.109.153（DNSPod 免费套餐限制同一主机的记录数量；无需升级）；待证书签发后开启 HTTPS 强制跳转。
 
 本项目不修改 one-page-answer、sheetdelta、shiplens 的代码或部署。产品链接指向其各自站点，功能介绍和限制以各项目文档为准。
 

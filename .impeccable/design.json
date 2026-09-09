@@ -1,0 +1,880 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-09T16:38:22.644034+00:00",
+  "title": "Design System: Nimokit",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0045 258.32)",
+          "oklch(26% 0.0045 258.32)",
+          "oklch(38% 0.0045 258.32)",
+          "oklch(49% 0.0045 258.32)",
+          "oklch(61% 0.0045 258.32)",
+          "oklch(72% 0.0045 258.32)",
+          "oklch(84% 0.0045 258.32)",
+          "oklch(95% 0.0045 258.32)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0359 258.89)",
+          "oklch(26% 0.0359 258.89)",
+          "oklch(38% 0.0359 258.89)",
+          "oklch(49% 0.0359 258.89)",
+          "oklch(61% 0.0359 258.89)",
+          "oklch(72% 0.0359 258.89)",
+          "oklch(84% 0.0359 258.89)",
+          "oklch(95% 0.0359 258.89)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0308 257.08)",
+          "oklch(26% 0.0308 257.08)",
+          "oklch(38% 0.0308 257.08)",
+          "oklch(49% 0.0308 257.08)",
+          "oklch(61% 0.0308 257.08)",
+          "oklch(72% 0.0308 257.08)",
+          "oklch(84% 0.0308 257.08)",
+          "oklch(95% 0.0308 257.08)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0139 258.35)",
+          "oklch(26% 0.0139 258.35)",
+          "oklch(38% 0.0139 258.35)",
+          "oklch(49% 0.0139 258.35)",
+          "oklch(61% 0.0139 258.35)",
+          "oklch(72% 0.0139 258.35)",
+          "oklch(84% 0.0139 258.35)",
+          "oklch(95% 0.0139 258.35)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Blue",
+        "tonalRamp": [
+          "oklch(15% 0.2098 261.53)",
+          "oklch(26% 0.2098 261.53)",
+          "oklch(38% 0.2098 261.53)",
+          "oklch(49% 0.2098 261.53)",
+          "oklch(61% 0.2098 261.53)",
+          "oklch(72% 0.2098 261.53)",
+          "oklch(84% 0.2098 261.53)",
+          "oklch(95% 0.2098 261.53)"
+        ]
+      },
+      "blue-deep": {
+        "role": "primary",
+        "displayName": "Blue Deep",
+        "tonalRamp": [
+          "oklch(15% 0.1655 261.74)",
+          "oklch(26% 0.1655 261.74)",
+          "oklch(38% 0.1655 261.74)",
+          "oklch(49% 0.1655 261.74)",
+          "oklch(61% 0.1655 261.74)",
+          "oklch(72% 0.1655 261.74)",
+          "oklch(84% 0.1655 261.74)",
+          "oklch(95% 0.1655 261.74)"
+        ]
+      },
+      "mint": {
+        "role": "secondary",
+        "displayName": "Mint",
+        "tonalRamp": [
+          "oklch(15% 0.0861 186.39)",
+          "oklch(26% 0.0861 186.39)",
+          "oklch(38% 0.0861 186.39)",
+          "oklch(49% 0.0861 186.39)",
+          "oklch(61% 0.0861 186.39)",
+          "oklch(72% 0.0861 186.39)",
+          "oklch(84% 0.0861 186.39)",
+          "oklch(95% 0.0861 186.39)"
+        ]
+      },
+      "coral": {
+        "role": "tertiary",
+        "displayName": "Coral",
+        "tonalRamp": [
+          "oklch(15% 0.1529 33.60)",
+          "oklch(26% 0.1529 33.60)",
+          "oklch(38% 0.1529 33.60)",
+          "oklch(49% 0.1529 33.60)",
+          "oklch(61% 0.1529 33.60)",
+          "oklch(72% 0.1529 33.60)",
+          "oklch(84% 0.1529 33.60)",
+          "oklch(95% 0.1529 33.60)"
+        ]
+      },
+      "glass": {
+        "role": "neutral",
+        "displayName": "Glass",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "blue-wash": {
+        "role": "primary",
+        "displayName": "Blue Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0215 265.76)",
+          "oklch(26% 0.0215 265.76)",
+          "oklch(38% 0.0215 265.76)",
+          "oklch(49% 0.0215 265.76)",
+          "oklch(61% 0.0215 265.76)",
+          "oklch(72% 0.0215 265.76)",
+          "oklch(84% 0.0215 265.76)",
+          "oklch(95% 0.0215 265.76)"
+        ]
+      },
+      "mint-wash": {
+        "role": "secondary",
+        "displayName": "Mint Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0162 172.64)",
+          "oklch(26% 0.0162 172.64)",
+          "oklch(38% 0.0162 172.64)",
+          "oklch(49% 0.0162 172.64)",
+          "oklch(61% 0.0162 172.64)",
+          "oklch(72% 0.0162 172.64)",
+          "oklch(84% 0.0162 172.64)",
+          "oklch(95% 0.0162 172.64)"
+        ]
+      },
+      "coral-wash": {
+        "role": "tertiary",
+        "displayName": "Coral Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0153 48.56)",
+          "oklch(26% 0.0153 48.56)",
+          "oklch(38% 0.0153 48.56)",
+          "oklch(49% 0.0153 48.56)",
+          "oklch(61% 0.0153 48.56)",
+          "oklch(72% 0.0153 48.56)",
+          "oklch(84% 0.0153 48.56)",
+          "oklch(95% 0.0153 48.56)"
+        ]
+      },
+      "logo-line": {
+        "role": "neutral",
+        "displayName": "Logo Line",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "dark-ground": {
+        "role": "neutral",
+        "displayName": "Dark Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0246 259.26)",
+          "oklch(26% 0.0246 259.26)",
+          "oklch(38% 0.0246 259.26)",
+          "oklch(49% 0.0246 259.26)",
+          "oklch(61% 0.0246 259.26)",
+          "oklch(72% 0.0246 259.26)",
+          "oklch(84% 0.0246 259.26)",
+          "oklch(95% 0.0246 259.26)"
+        ]
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "Dark Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0315 258.32)",
+          "oklch(26% 0.0315 258.32)",
+          "oklch(38% 0.0315 258.32)",
+          "oklch(49% 0.0315 258.32)",
+          "oklch(61% 0.0315 258.32)",
+          "oklch(72% 0.0315 258.32)",
+          "oklch(84% 0.0315 258.32)",
+          "oklch(95% 0.0315 258.32)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0120 259.82)",
+          "oklch(26% 0.0120 259.82)",
+          "oklch(38% 0.0120 259.82)",
+          "oklch(49% 0.0120 259.82)",
+          "oklch(61% 0.0120 259.82)",
+          "oklch(72% 0.0120 259.82)",
+          "oklch(84% 0.0120 259.82)",
+          "oklch(95% 0.0120 259.82)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0290 258.37)",
+          "oklch(26% 0.0290 258.37)",
+          "oklch(38% 0.0290 258.37)",
+          "oklch(49% 0.0290 258.37)",
+          "oklch(61% 0.0290 258.37)",
+          "oklch(72% 0.0290 258.37)",
+          "oklch(84% 0.0290 258.37)",
+          "oklch(95% 0.0290 258.37)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Line",
+        "tonalRamp": [
+          "oklch(15% 0.0355 256.59)",
+          "oklch(26% 0.0355 256.59)",
+          "oklch(38% 0.0355 256.59)",
+          "oklch(49% 0.0355 256.59)",
+          "oklch(61% 0.0355 256.59)",
+          "oklch(72% 0.0355 256.59)",
+          "oklch(84% 0.0355 256.59)",
+          "oklch(95% 0.0355 256.59)"
+        ]
+      },
+      "dark-blue": {
+        "role": "primary",
+        "displayName": "Dark Blue",
+        "tonalRamp": [
+          "oklch(15% 0.1073 261.96)",
+          "oklch(26% 0.1073 261.96)",
+          "oklch(38% 0.1073 261.96)",
+          "oklch(49% 0.1073 261.96)",
+          "oklch(61% 0.1073 261.96)",
+          "oklch(72% 0.1073 261.96)",
+          "oklch(84% 0.1073 261.96)",
+          "oklch(95% 0.1073 261.96)"
+        ]
+      },
+      "dark-blue-deep": {
+        "role": "primary",
+        "displayName": "Dark Blue Deep",
+        "tonalRamp": [
+          "oklch(15% 0.0416 263.01)",
+          "oklch(26% 0.0416 263.01)",
+          "oklch(38% 0.0416 263.01)",
+          "oklch(49% 0.0416 263.01)",
+          "oklch(61% 0.0416 263.01)",
+          "oklch(72% 0.0416 263.01)",
+          "oklch(84% 0.0416 263.01)",
+          "oklch(95% 0.0416 263.01)"
+        ]
+      },
+      "dark-mint": {
+        "role": "secondary",
+        "displayName": "Dark Mint",
+        "tonalRamp": [
+          "oklch(15% 0.0814 181.95)",
+          "oklch(26% 0.0814 181.95)",
+          "oklch(38% 0.0814 181.95)",
+          "oklch(49% 0.0814 181.95)",
+          "oklch(61% 0.0814 181.95)",
+          "oklch(72% 0.0814 181.95)",
+          "oklch(84% 0.0814 181.95)",
+          "oklch(95% 0.0814 181.95)"
+        ]
+      },
+      "dark-coral": {
+        "role": "tertiary",
+        "displayName": "Dark Coral",
+        "tonalRamp": [
+          "oklch(15% 0.0950 35.15)",
+          "oklch(26% 0.0950 35.15)",
+          "oklch(38% 0.0950 35.15)",
+          "oklch(49% 0.0950 35.15)",
+          "oklch(61% 0.0950 35.15)",
+          "oklch(72% 0.0950 35.15)",
+          "oklch(84% 0.0950 35.15)",
+          "oklch(95% 0.0950 35.15)"
+        ]
+      },
+      "dark-glass": {
+        "role": "neutral",
+        "displayName": "Dark Glass",
+        "tonalRamp": [
+          "oklch(15% 0.0315 258.32)",
+          "oklch(26% 0.0315 258.32)",
+          "oklch(38% 0.0315 258.32)",
+          "oklch(49% 0.0315 258.32)",
+          "oklch(61% 0.0315 258.32)",
+          "oklch(72% 0.0315 258.32)",
+          "oklch(84% 0.0315 258.32)",
+          "oklch(95% 0.0315 258.32)"
+        ]
+      },
+      "dark-blue-wash": {
+        "role": "primary",
+        "displayName": "Dark Blue Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0488 262.81)",
+          "oklch(26% 0.0488 262.81)",
+          "oklch(38% 0.0488 262.81)",
+          "oklch(49% 0.0488 262.81)",
+          "oklch(61% 0.0488 262.81)",
+          "oklch(72% 0.0488 262.81)",
+          "oklch(84% 0.0488 262.81)",
+          "oklch(95% 0.0488 262.81)"
+        ]
+      },
+      "dark-mint-wash": {
+        "role": "secondary",
+        "displayName": "Dark Mint Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0340 195.54)",
+          "oklch(26% 0.0340 195.54)",
+          "oklch(38% 0.0340 195.54)",
+          "oklch(49% 0.0340 195.54)",
+          "oklch(61% 0.0340 195.54)",
+          "oklch(72% 0.0340 195.54)",
+          "oklch(84% 0.0340 195.54)",
+          "oklch(95% 0.0340 195.54)"
+        ]
+      },
+      "dark-coral-wash": {
+        "role": "tertiary",
+        "displayName": "Dark Coral Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0256 22.52)",
+          "oklch(26% 0.0256 22.52)",
+          "oklch(38% 0.0256 22.52)",
+          "oklch(49% 0.0256 22.52)",
+          "oklch(61% 0.0256 22.52)",
+          "oklch(72% 0.0256 22.52)",
+          "oklch(84% 0.0256 22.52)",
+          "oklch(95% 0.0256 22.52)"
+        ]
+      },
+      "dark-logo-line": {
+        "role": "neutral",
+        "displayName": "Dark Logo Line",
+        "tonalRamp": [
+          "oklch(15% 0.0246 259.26)",
+          "oklch(26% 0.0246 259.26)",
+          "oklch(38% 0.0246 259.26)",
+          "oklch(49% 0.0246 259.26)",
+          "oklch(61% 0.0246 259.26)",
+          "oklch(72% 0.0246 259.26)",
+          "oklch(84% 0.0246 259.26)",
+          "oklch(95% 0.0246 259.26)"
+        ]
+      },
+      "button-fill": {
+        "role": "primary",
+        "displayName": "Button Fill",
+        "tonalRamp": [
+          "oklch(15% 0.2098 261.53)",
+          "oklch(26% 0.2098 261.53)",
+          "oklch(38% 0.2098 261.53)",
+          "oklch(49% 0.2098 261.53)",
+          "oklch(61% 0.2098 261.53)",
+          "oklch(72% 0.2098 261.53)",
+          "oklch(84% 0.2098 261.53)",
+          "oklch(95% 0.2098 261.53)"
+        ]
+      },
+      "button-hover": {
+        "role": "primary",
+        "displayName": "Button Hover",
+        "tonalRamp": [
+          "oklch(15% 0.1886 261.94)",
+          "oklch(26% 0.1886 261.94)",
+          "oklch(38% 0.1886 261.94)",
+          "oklch(49% 0.1886 261.94)",
+          "oklch(61% 0.1886 261.94)",
+          "oklch(72% 0.1886 261.94)",
+          "oklch(84% 0.1886 261.94)",
+          "oklch(95% 0.1886 261.94)"
+        ]
+      },
+      "button-text": {
+        "role": "neutral",
+        "displayName": "Button Text",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "paper-gold": {
+        "role": "neutral",
+        "displayName": "Paper Gold",
+        "tonalRamp": [
+          "oklch(15% 0.1100 82.23)",
+          "oklch(26% 0.1100 82.23)",
+          "oklch(38% 0.1100 82.23)",
+          "oklch(49% 0.1100 82.23)",
+          "oklch(61% 0.1100 82.23)",
+          "oklch(72% 0.1100 82.23)",
+          "oklch(84% 0.1100 82.23)",
+          "oklch(95% 0.1100 82.23)"
+        ]
+      },
+      "dark-paper-gold": {
+        "role": "neutral",
+        "displayName": "Dark Paper Gold",
+        "tonalRamp": [
+          "oklch(15% 0.0892 91.97)",
+          "oklch(26% 0.0892 91.97)",
+          "oklch(38% 0.0892 91.97)",
+          "oklch(49% 0.0892 91.97)",
+          "oklch(61% 0.0892 91.97)",
+          "oklch(72% 0.0892 91.97)",
+          "oklch(84% 0.0892 91.97)",
+          "oklch(95% 0.0892 91.97)"
+        ]
+      },
+      "book-start": {
+        "role": "primary",
+        "displayName": "Book Start",
+        "tonalRamp": [
+          "oklch(15% 0.1581 259.84)",
+          "oklch(26% 0.1581 259.84)",
+          "oklch(38% 0.1581 259.84)",
+          "oklch(49% 0.1581 259.84)",
+          "oklch(61% 0.1581 259.84)",
+          "oklch(72% 0.1581 259.84)",
+          "oklch(84% 0.1581 259.84)",
+          "oklch(95% 0.1581 259.84)"
+        ]
+      },
+      "book-end": {
+        "role": "primary",
+        "displayName": "Book End",
+        "tonalRamp": [
+          "oklch(15% 0.1424 261.09)",
+          "oklch(26% 0.1424 261.09)",
+          "oklch(38% 0.1424 261.09)",
+          "oklch(49% 0.1424 261.09)",
+          "oklch(61% 0.1424 261.09)",
+          "oklch(72% 0.1424 261.09)",
+          "oklch(84% 0.1424 261.09)",
+          "oklch(95% 0.1424 261.09)"
+        ]
+      },
+      "book-text": {
+        "role": "neutral",
+        "displayName": "Book Text",
+        "tonalRamp": [
+          "oklch(15% 0.0178 261.34)",
+          "oklch(26% 0.0178 261.34)",
+          "oklch(38% 0.0178 261.34)",
+          "oklch(49% 0.0178 261.34)",
+          "oklch(61% 0.0178 261.34)",
+          "oklch(72% 0.0178 261.34)",
+          "oklch(84% 0.0178 261.34)",
+          "oklch(95% 0.0178 261.34)"
+        ]
+      },
+      "book-gold": {
+        "role": "neutral",
+        "displayName": "Book Gold",
+        "tonalRamp": [
+          "oklch(15% 0.0580 91.81)",
+          "oklch(26% 0.0580 91.81)",
+          "oklch(38% 0.0580 91.81)",
+          "oklch(49% 0.0580 91.81)",
+          "oklch(61% 0.0580 91.81)",
+          "oklch(72% 0.0580 91.81)",
+          "oklch(84% 0.0580 91.81)",
+          "oklch(95% 0.0580 91.81)"
+        ]
+      },
+      "answer-icon-start": {
+        "role": "primary",
+        "displayName": "Answer Icon Start",
+        "tonalRamp": [
+          "oklch(15% 0.1561 259.58)",
+          "oklch(26% 0.1561 259.58)",
+          "oklch(38% 0.1561 259.58)",
+          "oklch(49% 0.1561 259.58)",
+          "oklch(61% 0.1561 259.58)",
+          "oklch(72% 0.1561 259.58)",
+          "oklch(84% 0.1561 259.58)",
+          "oklch(95% 0.1561 259.58)"
+        ]
+      },
+      "answer-icon-end": {
+        "role": "primary",
+        "displayName": "Answer Icon End",
+        "tonalRamp": [
+          "oklch(15% 0.1998 262.69)",
+          "oklch(26% 0.1998 262.69)",
+          "oklch(38% 0.1998 262.69)",
+          "oklch(49% 0.1998 262.69)",
+          "oklch(61% 0.1998 262.69)",
+          "oklch(72% 0.1998 262.69)",
+          "oklch(84% 0.1998 262.69)",
+          "oklch(95% 0.1998 262.69)"
+        ]
+      },
+      "sheet-icon-start": {
+        "role": "secondary",
+        "displayName": "Sheet Icon Start",
+        "tonalRamp": [
+          "oklch(15% 0.1213 170.34)",
+          "oklch(26% 0.1213 170.34)",
+          "oklch(38% 0.1213 170.34)",
+          "oklch(49% 0.1213 170.34)",
+          "oklch(61% 0.1213 170.34)",
+          "oklch(72% 0.1213 170.34)",
+          "oklch(84% 0.1213 170.34)",
+          "oklch(95% 0.1213 170.34)"
+        ]
+      },
+      "sheet-icon-end": {
+        "role": "secondary",
+        "displayName": "Sheet Icon End",
+        "tonalRamp": [
+          "oklch(15% 0.0957 173.71)",
+          "oklch(26% 0.0957 173.71)",
+          "oklch(38% 0.0957 173.71)",
+          "oklch(49% 0.0957 173.71)",
+          "oklch(61% 0.0957 173.71)",
+          "oklch(72% 0.0957 173.71)",
+          "oklch(84% 0.0957 173.71)",
+          "oklch(95% 0.0957 173.71)"
+        ]
+      },
+      "lens-icon-start": {
+        "role": "tertiary",
+        "displayName": "Lens Icon Start",
+        "tonalRamp": [
+          "oklch(15% 0.1222 41.12)",
+          "oklch(26% 0.1222 41.12)",
+          "oklch(38% 0.1222 41.12)",
+          "oklch(49% 0.1222 41.12)",
+          "oklch(61% 0.1222 41.12)",
+          "oklch(72% 0.1222 41.12)",
+          "oklch(84% 0.1222 41.12)",
+          "oklch(95% 0.1222 41.12)"
+        ]
+      },
+      "lens-icon-end": {
+        "role": "tertiary",
+        "displayName": "Lens Icon End",
+        "tonalRamp": [
+          "oklch(15% 0.1607 35.09)",
+          "oklch(26% 0.1607 35.09)",
+          "oklch(38% 0.1607 35.09)",
+          "oklch(49% 0.1607 35.09)",
+          "oklch(61% 0.1607 35.09)",
+          "oklch(72% 0.1607 35.09)",
+          "oklch(84% 0.1607 35.09)",
+          "oklch(95% 0.1607 35.09)"
+        ]
+      },
+      "aura-blue": {
+        "role": "primary",
+        "displayName": "Aura Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0454 257.60)",
+          "oklch(26% 0.0454 257.60)",
+          "oklch(38% 0.0454 257.60)",
+          "oklch(49% 0.0454 257.60)",
+          "oklch(61% 0.0454 257.60)",
+          "oklch(72% 0.0454 257.60)",
+          "oklch(84% 0.0454 257.60)",
+          "oklch(95% 0.0454 257.60)"
+        ]
+      },
+      "aura-mint": {
+        "role": "secondary",
+        "displayName": "Aura Mint",
+        "tonalRamp": [
+          "oklch(15% 0.0228 183.15)",
+          "oklch(26% 0.0228 183.15)",
+          "oklch(38% 0.0228 183.15)",
+          "oklch(49% 0.0228 183.15)",
+          "oklch(61% 0.0228 183.15)",
+          "oklch(72% 0.0228 183.15)",
+          "oklch(84% 0.0228 183.15)",
+          "oklch(95% 0.0228 183.15)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Homepage h1; responsive overrides are documented in Layout and Typography."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section introduction h2."
+      },
+      "product-title": {
+        "displayName": "Product Title",
+        "purpose": "Semantic product-name h3."
+      },
+      "product-promise": {
+        "displayName": "Product Promise",
+        "purpose": "Supporting promotional paragraph."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default interface body copy."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Primary button label."
+      },
+      "demo-quote": {
+        "displayName": "Demo Quote",
+        "purpose": "Sample answer in the live preview."
+      },
+      "book-art": {
+        "displayName": "Book Art",
+        "purpose": "Serif title in decorative flat cover artwork."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient",
+        "value": "0 28px 66px -28px rgba(34,58,101,.35)",
+        "purpose": "Preview and sheet/browser object surfaces."
+      },
+      {
+        "name": "ambient-dark",
+        "value": "0 28px 66px -28px rgba(0,0,0,.75)",
+        "purpose": "Dark appearance override for ambient elevation."
+      },
+      {
+        "name": "header",
+        "value": "0 8px 32px -18px rgba(28,48,80,.26)",
+        "purpose": "Sticky glass header."
+      },
+      {
+        "name": "dock",
+        "value": "0 18px 32px -20px rgba(32,58,91,.42)",
+        "purpose": "App selector dock."
+      },
+      {
+        "name": "note",
+        "value": "0 14px 35px -20px rgba(29,50,86,.45)",
+        "purpose": "Small floating answer note."
+      },
+      {
+        "name": "app-inset",
+        "value": "inset 0 1px 1px rgba(255,255,255,.6),inset 0 -5px 10px rgba(0,0,0,.12)",
+        "purpose": "Gradient app icons."
+      },
+      {
+        "name": "brand-drop",
+        "value": "drop-shadow(0 22px 18px rgba(20,91,221,.13))",
+        "purpose": "CSS filter on the large brand mark."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Shared soft settling ease."
+      },
+      {
+        "name": "button",
+        "value": "background .2s,transform .2s var(--ease)",
+        "purpose": "Primary-action hover."
+      },
+      {
+        "name": "preview-tilt",
+        "value": "transform .5s var(--ease)",
+        "purpose": "Preview straightens on hover or focus within."
+      },
+      {
+        "name": "preview-entry",
+        "value": "preview-in .45s var(--ease) both",
+        "purpose": "Opacity .75 to 1, vertical offset 8px to 0 and blur 2px to 0."
+      },
+      {
+        "name": "dock-icon",
+        "value": "transform .32s var(--ease)",
+        "purpose": "3px icon hover rise."
+      },
+      {
+        "name": "comparison",
+        "value": "background .3s,color .3s",
+        "purpose": "Sample changed-row highlight."
+      },
+      {
+        "name": "inspection",
+        "value": "opacity .2s",
+        "purpose": "Sample overflow outline."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media(prefers-reduced-motion:reduce)",
+        "purpose": "No animation, transition, smooth scroll, preview tilt or hover lift."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1450px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1100px"
+      },
+      {
+        "name": "stacked-hero-max",
+        "value": "800px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main product destination and collection CTA.",
+      "html": "<a class=\"ds-primary\" href=\"#products\">Explore the collection<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></a>",
+      "css": ".ds-primary{box-sizing:border-box;font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:50px;padding:13px 22px;border:0;border-radius:16px;font-size:14px;font-weight:700;line-height:1.5;text-decoration:none;background:#145bdd;color:#fff;transition:background .2s,transform .2s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-primary svg{width:22px;height:22px}.ds-primary:hover{background:#104bbd;transform:translateY(-2px)}.ds-primary:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}.ds-primary:hover{transform:none}}"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "refersTo": "link-text",
+      "description": "Secondary navigation beside a primary action.",
+      "html": "<a class=\"ds-text\" href=\"/about/\">A little about Nimokit<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></a>",
+      "css": ".ds-text{font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:inline-flex;align-items:center;gap:10px;min-height:44px;font-size:14px;font-weight:650;color:var(--blue,#145bdd);text-decoration:none;text-underline-offset:4px}.ds-text svg{width:22px;height:22px}.ds-text:hover{text-decoration:underline}.ds-text:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}"
+    },
+    {
+      "name": "Icon control",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "44px icon target for appearance or header shortcuts.",
+      "html": "<button class=\"ds-icon-control\" type=\"button\" aria-label=\"Switch to light mode\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5\"/></svg></button>",
+      "css": ".ds-icon-control{font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;border:0;background:transparent;color:var(--ink,#182334);border-radius:14px;cursor:pointer}.ds-icon-control svg{width:22px;height:22px}.ds-icon-control:hover{background:var(--blue-wash,#e9f0ff)}.ds-icon-control:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}"
+    },
+    {
+      "name": "Another thought",
+      "kind": "button",
+      "refersTo": "button-demo-answer",
+      "description": "Bundled sample interaction; product service is not invoked.",
+      "html": "<button class=\"ds-demo-answer\" type=\"button\">Turn a page<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></button>",
+      "css": ".ds-demo-answer{font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:flex;align-items:center;justify-content:center;gap:9px;min-height:44px;width:100%;font-size:12px;font-weight:650;border:0;border-radius:12px;background:var(--paper,#fff);color:var(--blue-deep,#1043a4);cursor:pointer}.ds-demo-answer svg{width:16px;height:16px}.ds-demo-answer:hover{background:var(--blue-wash,#e9f0ff)}.ds-demo-answer:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}"
+    },
+    {
+      "name": "Compare the sample",
+      "kind": "button",
+      "refersTo": "button-demo-sheet",
+      "description": "Bundled sample interaction; product service is not invoked.",
+      "html": "<button class=\"ds-demo-sheet\" type=\"button\">Compare the sample<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></button>",
+      "css": ".ds-demo-sheet{font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:flex;align-items:center;justify-content:center;gap:9px;min-height:44px;width:100%;font-size:12px;font-weight:650;border:0;border-radius:12px;background:var(--mint-wash,#e3f1ec);color:var(--mint,#0f766e);cursor:pointer}.ds-demo-sheet svg{width:16px;height:16px}.ds-demo-sheet:hover{background:var(--mint-wash,#e3f1ec)}.ds-demo-sheet:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}"
+    },
+    {
+      "name": "Inspect the sample",
+      "kind": "button",
+      "refersTo": "button-demo-lens",
+      "description": "Bundled sample interaction; product service is not invoked.",
+      "html": "<button class=\"ds-demo-lens\" type=\"button\">Inspect the sample<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></button>",
+      "css": ".ds-demo-lens{font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:flex;align-items:center;justify-content:center;gap:9px;min-height:44px;width:100%;font-size:12px;font-weight:650;border:0;border-radius:12px;background:var(--coral-wash,#faeee8);color:var(--coral,#b7452d);cursor:pointer}.ds-demo-lens svg{width:16px;height:16px}.ds-demo-lens:hover{background:var(--coral-wash,#faeee8)}.ds-demo-lens:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Glass navigation with simple links; header controls are separate primitives.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"/#products\">Products</a><a href=\"/about/\">About</a></nav>",
+      "css": ".ds-nav{box-sizing:border-box;font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:flex;gap:30px;align-items:center;height:68px;padding:0 22px;border-radius:22px;background:var(--glass,rgba(255,255,255,.74));backdrop-filter:blur(24px) saturate(145%);box-shadow:0 8px 32px -18px rgba(28,48,80,.26)}.ds-nav a{display:flex;align-items:center;min-height:44px;font-size:14px;font-weight:600;text-decoration:none;color:var(--ink,#182334)}.ds-nav a:hover{color:var(--blue,#145bdd)}.ds-nav a:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}@media(max-width:600px){.ds-nav{height:62px;padding:0 13px;border-radius:20px}.ds-nav a{font-size:12px}.ds-nav a:nth-child(2){display:none}}"
+    },
+    {
+      "name": "Product app dock",
+      "kind": "custom",
+      "refersTo": "app-dock",
+      "description": "Selected/unselected dock styling; the application script supplies tab switching.",
+      "html": "<div class=\"ds-dock\" role=\"tablist\" aria-label=\"Choose a product preview\"><button type=\"button\" role=\"tab\" aria-selected=\"true\" tabindex=\"0\"><span class=\"ds-app ds-answer\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1Zm0 0v14\"/></svg></span><span>Answer Book</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\"><span class=\"ds-app ds-sheet\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"3\"/><path d=\"M3 9h18M9 3v18m0-6h12m-6-6v12\"/></svg></span><span>SheetDelta</span></button><button type=\"button\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\"><span class=\"ds-app ds-lens\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"14\" height=\"14\" rx=\"4\"/><circle cx=\"13\" cy=\"13\" r=\"5\"/><path d=\"m17 17 4 4M7 7h6\"/></svg></span><span>ShipLens</span></button></div>",
+      "css": ".ds-dock{font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:flex;justify-content:center;gap:3px;padding:9px 12px;width:fit-content;max-width:100%;border-radius:25px;background:var(--glass,rgba(255,255,255,.74));backdrop-filter:blur(20px);box-shadow:0 18px 32px -20px rgba(32,58,91,.42)}.ds-dock button{box-sizing:border-box;font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);width:110px;padding:7px 8px 4px;border:0;background:transparent;display:flex;align-items:center;flex-direction:column;gap:7px;color:var(--muted,#5c6879);font-size:11px;font-weight:600;border-radius:16px;cursor:pointer}.ds-dock button[aria-selected=true]{color:var(--ink,#182334);background:var(--paper,#fff)}.ds-app{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:14px;color:#fff;box-shadow:inset 0 1px 1px rgba(255,255,255,.6),inset 0 -5px 10px rgba(0,0,0,.12)}.ds-app svg{width:27px;height:27px}.ds-answer{background:linear-gradient(150deg,#629eff,#235dd9)}.ds-sheet{background:linear-gradient(150deg,#4fc9a5,#087862)}.ds-lens{background:linear-gradient(150deg,#ffa17e,#cb5234)}.ds-dock .ds-app{transition:transform .32s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-dock button:hover .ds-app{transform:translateY(-3px)}.ds-dock button:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}@media(max-width:600px){.ds-dock{padding:7px 8px;border-radius:23px}.ds-dock button{width:89px;padding-inline:5px}.ds-dock .ds-app{width:46px;height:46px}}@media(prefers-reduced-motion:reduce){.ds-dock .ds-app{transition:none}.ds-dock button:hover .ds-app{transform:none}}"
+    },
+    {
+      "name": "Related product",
+      "kind": "card",
+      "refersTo": "related-card",
+      "description": "Compact link on product detail pages.",
+      "html": "<a class=\"ds-related\" href=\"/products/answer/\"><span class=\"ds-app ds-answer\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1Zm0 0v14\"/></svg></span><span>One Page Answer<small>For a little clarity</small></span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-5-5 5 5-5 5\"/></svg></a>",
+      "css": ".ds-related{font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);display:flex;align-items:center;gap:18px;padding:18px 22px;border-radius:18px;background:var(--paper,#fff);color:var(--ink,#182334);text-decoration:none;font-size:17px;font-weight:650}.ds-app{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:14px;color:#fff;box-shadow:inset 0 1px 1px rgba(255,255,255,.6),inset 0 -5px 10px rgba(0,0,0,.12)}.ds-app svg{width:27px;height:27px}.ds-answer{background:linear-gradient(150deg,#629eff,#235dd9)}.ds-sheet{background:linear-gradient(150deg,#4fc9a5,#087862)}.ds-lens{background:linear-gradient(150deg,#ffa17e,#cb5234)}.ds-related .ds-app{width:45px;height:45px}.ds-related .ds-app svg{width:25px;height:25px}.ds-related small{display:block;color:var(--muted,#5c6879);font-size:11px;font-weight:400;margin-top:4px}.ds-related>svg{width:22px;height:22px;margin-left:auto}.ds-related:hover{text-decoration:none}.ds-related:focus-visible{outline:3px solid var(--blue,#145bdd);outline-offset:5px}@media(max-width:600px){.ds-related{padding:17px;font-size:15px}}"
+    },
+    {
+      "name": "Flat answer cover",
+      "kind": "custom",
+      "refersTo": "book-cover",
+      "description": "Decorative CSS cover artwork, not a physical book mockup.",
+      "html": "<div class=\"ds-cover\" aria-hidden=\"true\"><span>ONE PAGE ANSWER</span><strong>The<br>Answer<br>Book</strong><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.65\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5\"/></svg><small>A LITTLE CLARITY</small></div>",
+      "css": ".ds-cover{box-sizing:border-box;font-family:var(--font,Manrope,'PingFang SC','Microsoft YaHei',sans-serif);background:linear-gradient(125deg,#2861be,#164394);width:215px;height:288px;transform:rotate(-6deg);border-radius:20px;display:flex;align-items:center;flex-direction:column;color:#ecf3ff;padding:29px 26px 20px;position:relative}.ds-cover>span{font-size:11px;letter-spacing:.12em}.ds-cover strong{font-family:Georgia,\"Songti SC\",serif;font-size:35px;font-weight:400;line-height:1.05;text-align:center;margin:25px 0 18px}.ds-cover>svg{width:30px;height:30px;color:#d4c69c}.ds-cover small{margin-top:auto;font-size:11px;letter-spacing:.08em}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The iOS App Switcher",
+    "overview": "Nimokit uses the confirmed iOS-inspired direction: cool porcelain, clear ink, rounded app objects and translucent navigation. Manrope gives the interface a compact modern voice; the system font fallbacks keep Chinese content native and readable. Generous space and a restrained three-color palette let the products remain distinct.\n\nDepth belongs to the app surfaces and their surrounding atmosphere. Product illustrations are original HTML/CSS and inline SVG. The blue answer-book artwork is a flat cover graphic with a simple rotation; it has no simulated page edges, spine or physical perspective. No raster imagery ships in this implementation.",
+    "keyCharacteristics": [
+      "Cool porcelain and ink with blue, mint and coral product accents.",
+      "Translucent navigation and app dock; soft layered preview surfaces.",
+      "Rounded geometry, clear type hierarchy and generous responsive spacing.",
+      "Local licensed Manrope with Chinese system-font fallbacks.",
+      "Keyboard-visible focus, bilingual routes, light/dark appearance and reduced-motion support."
+    ],
+    "rules": [],
+    "dos": [
+      "Do use the existing semantic CSS variables so surfaces and text follow the active theme.",
+      "Do preserve blue, mint and coral as the three product identities.",
+      "Do keep product names as real h3 headings, with promotional supporting copy in paragraphs.",
+      "Do retain at least 44px targets for the navigation, icon, demo and text-link controls documented here.",
+      "Do label sample data and capability illustrations; the homepage demos use bundled sample content.",
+      "Do keep the answer-book illustration a flat CSS cover graphic and retain the shipped font license."
+    ],
+    "donts": [
+      "Don't replace the confirmed cool iOS-inspired visual vocabulary with an unrelated aesthetic.",
+      "Don't turn every section into a bordered card; use the implemented whitespace and alternating product rows.",
+      "Don't add a physical book spine, page-edge shading or perspective to the flat cover illustration.",
+      "Don't apply dark-theme link blue to primary-button backgrounds; primary buttons retain their fixed blue fill and white text.",
+      "Don't add invented testimonials, metrics, inputs, payment states or unsupported product promises.",
+      "Don't remove the reduced-motion behavior, visible focus treatment or meaningful heading structure."
+    ]
+  }
+}
