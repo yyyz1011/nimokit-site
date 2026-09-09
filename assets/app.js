@@ -7,7 +7,7 @@ const queries=matchMedia('(prefers-color-scheme: dark)');queries.addEventListene
 const showcase=document.querySelector('.showcase');
 if(!showcase)return;
 const tabs=[...document.querySelectorAll('[data-product]')];
-function select(tab,focus=false){const selected=tab.dataset.product;tabs.forEach(t=>{const active=t===tab;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;document.getElementById('preview-'+t.dataset.product).hidden=!active;});showcase.dataset.selected=selected;const link=document.querySelector('[data-stage-open]');link.href=tab.dataset.url;link.firstChild.textContent=tab.dataset.action;if(focus)tab.focus();}
+function select(tab,focus=false){const selected=tab.dataset.product;tabs.forEach(t=>{const active=t===tab;t.setAttribute('aria-selected',String(active));t.tabIndex=active?0:-1;document.getElementById('preview-'+t.dataset.product).hidden=!active;});showcase.dataset.selected=selected;const link=document.querySelector('[data-stage-open]');const destination=document.getElementById(selected).querySelector('.product-links .primary');link.href=tab.dataset.url||destination.href;link.firstChild.textContent=tab.dataset.action||destination.firstChild.textContent;if(focus)tab.focus();}
 tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>select(tab));tab.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%tabs.length;if(event.key==='ArrowLeft')next=(index+tabs.length-1)%tabs.length;if(event.key==='Home')next=0;if(event.key==='End')next=tabs.length-1;if(next!==undefined){event.preventDefault();select(tabs[next],true);}});});
 const quotes=zh?[
 ['你可以先做好一件小事。','选一个今天能够做到的步骤。开始，不需要多么了不起。'],
