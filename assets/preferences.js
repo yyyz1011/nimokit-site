@@ -1,0 +1,1 @@
+(() => {try {const value=localStorage.getItem('nimokit:appearance:v1');document.documentElement.dataset.theme=['light','dark'].includes(value)?value:(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}})();
