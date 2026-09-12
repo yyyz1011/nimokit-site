@@ -31,7 +31,9 @@ test('Public pages load the matching AdSense publisher once without adding analy
  }
  const app=fs.readFileSync(path.join(root,'assets/app.js'),'utf8');assert.doesNotMatch(app,/fetch\(|XMLHttpRequest|sendBeacon/);
 });
-test('The product switcher has three paired tabs and panels, with one initial selection',()=>{
- for(const route of ['','zh/']){const html=fs.readFileSync(path.join(root,route,'index.html'),'utf8');assert.equal((html.match(/role="tab"/g)||[]).length,3);assert.equal((html.match(/aria-selected="true"/g)||[]).length,1);for(const p of products){assert.ok(html.includes(`aria-controls="preview-${p.id}"`));assert.ok(html.includes(`id="preview-${p.id}" role="tabpanel" aria-labelledby="tab-${p.id}"`));}}
+test('The product switcher has one paired tab and panel per product, with one initial selection',()=>{
+ assert.equal(products[0].id,'manuslate');
+ assert.equal(products[1].id,'answer');
+ for(const route of ['','zh/']){const html=fs.readFileSync(path.join(root,route,'index.html'),'utf8');assert.equal((html.match(/role="tab"/g)||[]).length,products.length);assert.equal((html.match(/aria-selected="true"/g)||[]).length,1);assert.match(html,/id="preview-manuslate" role="tabpanel" aria-labelledby="tab-manuslate" >/);assert.match(html,/id="preview-answer" role="tabpanel" aria-labelledby="tab-answer" hidden>/);for(const p of products){assert.ok(html.includes(`aria-controls="preview-${p.id}"`));assert.ok(html.includes(`id="preview-${p.id}" role="tabpanel" aria-labelledby="tab-${p.id}"`));}}
 });
-test('The sitemap contains all and only the twelve canonical pages',()=>{const xml=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');const urls=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);assert.equal(urls.length,12);assert.equal(new Set(urls).size,12);for(const route of pages)assert.ok(urls.includes('https://nimokit.com/'+route));});
+test('The sitemap contains all and only the generated canonical pages',()=>{const xml=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');const urls=[...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);assert.equal(urls.length,pages.length);assert.equal(new Set(urls).size,pages.length);for(const route of pages)assert.ok(urls.includes('https://nimokit.com/'+route));});

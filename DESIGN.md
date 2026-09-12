@@ -9,10 +9,12 @@ colors:
   line: "#dce2eb"
   blue: "#145bdd"
   blue-deep: "#1043a4"
+  ruby: "#be3443"
   mint: "#0f766e"
   coral: "#b7452d"
   glass: "rgba(255,255,255,.74)"
   blue-wash: "#e9f0ff"
+  ruby-wash: "#f9e9eb"
   mint-wash: "#e3f1ec"
   coral-wash: "#faeee8"
   logo-line: "#fff"
@@ -23,10 +25,12 @@ colors:
   dark-line: "#344153"
   dark-blue: "#94baff"
   dark-blue-deep: "#d4e3ff"
+  dark-ruby: "#ff9ca8"
   dark-mint: "#8bdbcd"
   dark-coral: "#ffb29e"
   dark-glass: "rgba(29,39,54,.84)"
   dark-blue-wash: "#222f48"
+  dark-ruby-wash: "#3a272e"
   dark-mint-wash: "#1a3636"
   dark-coral-wash: "#3b2a29"
   dark-logo-line: "#101722"
@@ -165,13 +169,13 @@ components:
 
 **Creative North Star: "The iOS App Switcher"**
 
-Nimokit uses the confirmed iOS-inspired direction: cool porcelain, clear ink, rounded app objects and translucent navigation. Manrope gives the interface a compact modern voice; the system font fallbacks keep Chinese content native and readable. Generous space and a restrained three-color palette let the products remain distinct.
+Nimokit uses the confirmed iOS-inspired direction: cool porcelain, clear ink, rounded app objects and translucent navigation. Manrope gives the interface a compact modern voice; the system font fallbacks keep Chinese content native and readable. Generous space and a restrained four-color palette let the products remain distinct.
 
-Depth belongs to the app surfaces and their surrounding atmosphere. Product illustrations are original HTML/CSS and inline SVG. The blue answer-book artwork is a flat cover graphic with a simple rotation; it has no simulated page edges, spine or physical perspective. No raster imagery ships in this implementation.
+Depth belongs to the app surfaces and their surrounding atmosphere. Most product illustrations are original HTML/CSS and inline SVG. Manuslate uses its real application icon and a compressed interface screenshot so the desktop product is represented accurately; the blue answer-book artwork remains a flat cover graphic with a simple rotation.
 
 **Key Characteristics:**
 
-- Cool porcelain and ink with blue, mint and coral product accents.
+- Cool porcelain and ink with ruby, blue, mint and coral product accents.
 - Translucent navigation and app dock; soft layered preview surfaces.
 - Rounded geometry, clear type hierarchy and generous responsive spacing.
 - Local licensed Manrope with Chinese system-font fallbacks.
@@ -179,7 +183,7 @@ Depth belongs to the app surfaces and their surrounding atmosphere. Product illu
 
 ## Colors
 
-Cool porcelain and clear ink establish the neutral field; blue, mint and warm coral distinguish the products. Frontmatter values are normative and are extracted from `assets/style.css`; the `dark-` entries record the actual `data-theme=dark` overrides.
+Cool porcelain and clear ink establish the neutral field; ruby, blue, mint and warm coral distinguish the products. Frontmatter values are normative and are extracted from `assets/style.css`; the `dark-` entries record the actual `data-theme=dark` overrides.
 
 ### Primary
 
@@ -188,6 +192,7 @@ Cool porcelain and clear ink establish the neutral field; blue, mint and warm co
 
 ### Secondary
 
+- **Manuslate Ruby** (`ruby`, `ruby-wash`): Manuslate labels, selection accents and the application screenshot field.
 - **Quiet Mint** (`mint`, `mint-wash`): SheetDelta identity, changed sample cells and comparison actions. The corresponding icon gradient uses `sheet-icon-start` and `sheet-icon-end`.
 
 ### Tertiary
@@ -268,7 +273,7 @@ The dock uses 25px corners, glass fill and a soft shadow. Each tab contains a gr
 
 ### Sample previews and demo controls
 
-The answer preview uses a paper-to-blue-wash gradient, a gold sun and centered sample text. Its paper demo button changes the bundled quote. The SheetDelta preview is a semantic table with sample filenames; comparison highlights one mint row and reports the quantity change. ShipLens uses a miniature browser schematic; inspection reveals a coral overflow outline. Result text is announced politely. Each demo action has a 44px minimum height, 12px corners and a product-colored treatment. These are illustrative interactions, not file upload or live inspection tools.
+The Manuslate preview opens with a compact two-column desktop writing surface that makes the local library and Markdown document visible immediately. The answer preview uses a paper-to-blue-wash gradient, a gold sun and centered sample text; its paper demo button changes the bundled quote. The SheetDelta preview is a semantic table with sample filenames; comparison highlights one mint row and reports the quantity change. ShipLens uses a miniature browser schematic; inspection reveals a coral overflow outline. Result text is announced politely. Each demo action has a 44px minimum height, 12px corners and a product-colored treatment. These are illustrative interactions, not file upload or live inspection tools.
 
 Preview entry lasts 450ms with the shared `cubic-bezier(.16,1,.3,1)` easing; it fades from .75, rises 8px and removes a 2px blur. Reduced-motion preference disables animations, transitions, smooth scrolling, preview tilt and hover lifts.
 
@@ -276,14 +281,14 @@ Preview entry lasts 450ms with the shared `cubic-bezier(.16,1,.3,1)` easing; it 
 
 Related-product links pair a 45px app icon with name, muted category and an arrow on a paper surface, using 18px corners and 18px by 22px padding. They retain the common focus outline and do not add an invented hover elevation.
 
-Product artwork uses real HTML/CSS and inline SVG. The blue flat cover, sample spreadsheet and browser/device illustration are decorative and hidden from assistive technology; their adjacent product names and prose carry the meaning. Sample-data and capability captions remain visible. No input fields, chips, dialogs or payment components are implemented.
+Product artwork uses HTML/CSS, inline SVG and a real Manuslate interface screenshot. The screenshot, blue flat cover, sample spreadsheet and browser/device illustration are decorative and hidden from assistive technology; adjacent product names and prose carry the meaning. Sample-data and capability captions remain visible. No input fields, chips, dialogs or payment components are implemented.
 
 ## Do's and Don'ts
 
 ### Do:
 
 - Do use the existing semantic CSS variables so surfaces and text follow the active theme.
-- Do preserve blue, mint and coral as the three product identities.
+- Do preserve ruby, blue, mint and coral as the four product identities.
 - Do keep product names as real h3 headings, with promotional supporting copy in paragraphs.
 - Do retain at least 44px targets for the navigation, icon, demo and text-link controls documented here.
 - Do label sample data and capability illustrations; the homepage demos use bundled sample content.
